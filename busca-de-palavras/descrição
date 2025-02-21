@@ -1,0 +1,19 @@
+# Python Project - Menu de Busca de Palavras
+
+## Descrição
+Este projeto Python implementa um programa interativo que oferece um menu para o usuário escolher entre duas opções principais: procurar uma palavra em um arquivo de texto com 1.000 palavras ou em um arquivo de texto com 10.000 palavras. O programa mede o tempo de execução das buscas e fornece estatísticas sobre o desempenho.
+
+## Funcionalidades
+- Menu principal com opções para busca em arquivos de 1.000 ou 10.000 palavras.
+- Submenu de palavras, permitindo ao usuário escolher entre cinco palavras diferentes.
+- Busca eficiente de palavras em arquivos de texto.
+- Medição do tempo de execução para cada busca.
+- Cálculo e exibição do tempo médio de execução.
+
+## Estrutura do Código
+- `menu`: Exibe o menu principal e lida com as escolhas do usuário.
+- `menu_palavras`: Exibe o submenu de palavras e retorna a escolha do usuário.
+- `procurar_nome`: Verifica se uma palavra está presente em uma lista de palavras.
+- `imprimir_tempo`: Imprime o tempo de execução de cada repetição e calcula o tempo médio.
+- `mil`: Realiza a busca em um arquivo de 1.000 palavras e mede o tempo de execução.
+- `dez`: Realiza a busca em um arquivo de 10.000 palavras e mede o tempo de execução.
